@@ -1,0 +1,52 @@
+#container {
+    width: 50vw;
+}
+
+#container h1 {
+    text-align: center;
+    color: #A1ADB5;
+}
+
+#menu {
+    margin-top: 25px;
+}
+
+.item {
+    width: 100%;
+    margin-bottom: 20px;
+    float: left;
+}
+
+#menu a {
+    color: #F5E9DD;
+    text-decoration: none;
+}
+
+.gummy {
+    width: 15%;
+    margin-right: 15px;
+    float: left;
+}
+
+#menu img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.line {
+    width: 55%;
+    height: 3px;
+    margin-top: 8%;
+    border-bottom: 3px dotted #F5E9DD;
+    opacity: 0.5;
+}
+
+.page {
+    width: 20%;
+    margin-top: calc(-1 * (7.5pt + 3px));
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 15pt;
+    float: right;
+    text-align: right;
+}
