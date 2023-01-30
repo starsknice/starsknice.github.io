@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../img/lozenge.png');
+    background-color: rgb(37, 35, 33);
+    color: #ffffff;
+    font: 12pt "Goudy Bookletter 1911", Times;
+}
+
+h1, h2, h3 {
+    font-family: "Homemade Apple", cursive;
+}
