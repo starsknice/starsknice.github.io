@@ -1,3 +1,55 @@
+nav {
+    background-color: #231E1B;
+    width: 100vw;
+    padding: 10px 20px;
+    color: #F5E9DD;
+    position: absolute;
+    border-bottom: 1px solid #2D2622;
+}
+
+#name {
+    font-size: 15pt;
+    float: left;
+    padding: 6px 12px;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+#name a {
+    font: 16pt "Homemade Apple", cursive;
+}
+
+nav a {
+    color: #F5E9DD;
+    border-bottom: none;
+}
+
+nav a:hover {
+    color: #F5E9DD;
+    opacity: 0.25;
+    text-decoration: none;
+}
+
+nav ul {
+    margin: 14px 0px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin: 0px 5px;
+    padding: 3px 6px;
+}
+
+nav .current-page {
+    opacity: 0.25;
+}
+
 h1 {
     text-align: center;
 }
