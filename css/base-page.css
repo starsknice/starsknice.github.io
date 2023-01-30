@@ -81,15 +81,6 @@ footer li {
         border-bottom: 2px solid #232323;
     }
 
-footer .gummy-line {
-    background-color: #FFD19A;
-    margin: 10px 0px;
-    width: 5vw;
-    height: 3px;
-    border-radius: 3px;
-    opacity: 1;
-}
-
 footer .credit {
     bottom: 0;
     margin: 10px 0px 0px 0px;
