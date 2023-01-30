@@ -51,3 +51,11 @@
     float: right;
     text-align: right;
 }
+
+#menu:hover > .m {
+    opacity: 0.25;
+}
+
+#menu:hover > .m:hover {
+    opacity: 1;
+}
