@@ -4,6 +4,7 @@
 
 #container h1 {
     text-align: center;
+    color: #A1ADB5;
 }
 
 #menu {
@@ -11,8 +12,9 @@
 }
 
 .item {
+    width: 100%;
     margin-bottom: 20px;
-    display: flex;
+    float: left;
 }
 
 #menu a {
@@ -21,7 +23,7 @@
 }
 
 .gummy {
-    width: 200px;
+    width: 15%;
     margin-right: 15px;
     float: left;
 }
@@ -31,17 +33,20 @@
     border-radius: 10px;
 }
 
-.dotted-lines {
-    margin-top: 12%;
-    overflow: hidden;
-    flex-grow: 1;
+.line {
+    width: 55%;
+    height: 3px;
+    margin-top: 8%;
+    border-bottom: 3px dotted #F5E9DD;
+    opacity: 0.5;
 }
 
 .page {
-    width: 15%;
-    margin-top: 12%;
+    width: 20%;
+    margin-top: calc(-1 * (7.5pt + 3px));
     margin-left: 15px;
     text-transform: uppercase;
     font-size: 15pt;
     float: right;
+    text-align: right;
 }

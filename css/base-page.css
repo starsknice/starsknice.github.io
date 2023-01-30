@@ -53,3 +53,49 @@ nav .current-page {
 h1 {
     text-align: center;
 }
+
+footer {
+    background-color: #231E1B;
+    width: 100vw;
+    padding: 10px 20px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-right: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+    footer li a {
+        color: #232323;
+        border-bottom: none;
+    }
+
+    footer li a:hover {
+        color: #232323;
+        border-bottom: 2px solid #232323;
+    }
+
+footer .gummy-line {
+    background-color: #FFD19A;
+    margin: 10px 0px;
+    width: 5vw;
+    height: 3px;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+footer .credit {
+    bottom: 0;
+    margin: 10px 0px 0px 0px;
+    font-size: 8pt;
+}
+
+footer .current-page {
+    opacity: 0.5;
+}
