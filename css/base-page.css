@@ -62,7 +62,7 @@ h1 {
 footer {
     background-color: #231E1B;
     width: 100vw;
-    padding: 10px 20px;
+    padding: 40px 20px;
     border-top: 1px solid #2D2622;
 }
 
@@ -74,18 +74,62 @@ footer ul {
 footer li {
     margin-right: 20px;
     list-style-type: none;
-    display: inline;
 }
 
-    footer li a {
-        color: #232323;
-        border-bottom: none;
-    }
+footer .curly-quote {
+    height: 40pt;
+    margin-right: 10px;
+    margin-top: -10pt;
+    font-size: 60pt;
+    opacity: 0.25;
+    float: left;
+    overflow: hidden;
+}
+
+footer .quote {
+    margin: 0;
+}
+
+footer .quote-credit {
+    margin: 0;
+    opacity: 0.5;
+}
+
+footer li a {
+    color: #F5E9DD;
+    border-bottom: none;
+}
 
     footer li a:hover {
-        color: #232323;
-        border-bottom: 2px solid #232323;
+        color: #F5E9DD;
+        opacity: 0.25;
+        text-decoration: none;
     }
+
+footer .somed {
+    margin-top: 20px;
+    word-spacing: 10pt;
+}
+
+footer .somed i {
+    background-color: #A1ADB5;
+    color: #2d1f18;
+    font-size: 15pt;
+    border-radius: 100%;
+
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+}
+
+footer .somed i:hover {
+    background-color: #2d1f18;
+    color: #A1ADB5;
+    font-size: 15pt;
+    border-radius: 100%;
+}
+
 
 footer .credit {
     bottom: 0;
@@ -94,5 +138,5 @@ footer .credit {
 }
 
 footer .current-page {
-    opacity: 0.5;
+    opacity: 0.25;
 }
