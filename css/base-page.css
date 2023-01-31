@@ -54,10 +54,16 @@ h1 {
     text-align: center;
 }
 
+#container {
+    width: 100vw;
+    padding: 200px 20% 100px 20%;
+}
+
 footer {
     background-color: #231E1B;
     width: 100vw;
     padding: 10px 20px;
+    border-top: 1px solid #2D2622;
 }
 
 footer ul {

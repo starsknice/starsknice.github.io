@@ -7,10 +7,12 @@ body {
     background-color: #231E1B;
     color: #F5E9DD;
     font: 13pt "Goudy Bookletter 1911", Times;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
     font-family: "Homemade Apple", cursive;
+    color: #A1ADB5;
 }
 
 a {

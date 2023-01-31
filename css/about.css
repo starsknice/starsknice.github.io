@@ -1,6 +1,36 @@
-#icon {
+#bio {
+    text-align: center;
+}
+
+#experience {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.icon {
     width: 150px;
     height: 150px;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    border: 3px solid #F5E9DD;
+}
+
+.zine-icon {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #F5E9DD;
+    margin-top: 15px;
+}
+
+.zine-name {
+    background-color: #A1ADB5;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 15pt;
+    color: #2d1f18;
+    letter-spacing: 0.5pt;
+    border-radius: 10px;
+}
+
+.zine-about {
 }
