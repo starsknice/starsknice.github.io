@@ -1,7 +1,7 @@
 nav {
     background-color: #231E1B;
     width: 100vw;
-    padding: 10px 20px;
+    padding: 10px 30px 10px 20px;
     color: #F5E9DD;
     position: absolute;
     border-bottom: 1px solid #2D2622;
@@ -62,7 +62,7 @@ h1 {
 footer {
     background-color: #231E1B;
     width: 100vw;
-    padding: 40px 20px;
+    padding: 40px 30px;
     border-top: 1px solid #2D2622;
 }
 
@@ -93,6 +93,11 @@ footer .quote {
 footer .quote-credit {
     margin: 0;
     opacity: 0.5;
+}
+
+footer ul {
+    padding-left: 20px;
+    border-left: 1px solid #A1ADB5;
 }
 
 footer li a {

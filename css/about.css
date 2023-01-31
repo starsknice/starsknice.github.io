@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+#bio p {
+    text-align: left;
+}
+
 #experience {
     margin-top: 100px;
     text-align: center;
@@ -33,4 +37,5 @@
 }
 
 .zine-about {
+    text-align: left;
 }
