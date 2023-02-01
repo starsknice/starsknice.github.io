@@ -3,8 +3,9 @@ nav {
     width: 100vw;
     padding: 10px 30px 10px 20px;
     color: #F5E9DD;
-    position: absolute;
+    position: fixed;
     border-bottom: 1px solid #2D2622;
+    z-index: 999;
 }
 
 #name {

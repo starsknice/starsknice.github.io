@@ -1,3 +1,20 @@
 .dodont {
+    background: #231E1B;
     margin-top: 25px;
+    padding: 40px;
+    border-top: 1px solid #2D2622;
+    border-radius: 10px;
+}
+
+.price {
+    padding-left: 50px;
+    color: rgb(120, 120, 120); 
+}
+
+.examples {
+}
+
+.examples img {
+    max-width: 100%;
+    border-radius: 5px;
 }
