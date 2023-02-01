@@ -1,8 +1,8 @@
 nav {
-    background-color: #231E1B;
+    background-color: #6d5b52;
     width: 100vw;
     padding: 10px 30px 10px 20px;
-    color: #F5E9DD;
+    color: #170f0b;
     position: fixed;
     border-bottom: 1px solid #2D2622;
     z-index: 999;
@@ -21,15 +21,16 @@ nav {
 
 #name a {
     font: 16pt "Homemade Apple", cursive;
+    color: #170f0b;
 }
 
 nav a {
-    color: #F5E9DD;
+    color: #170f0b;
     border-bottom: none;
 }
 
 nav a:hover {
-    color: #F5E9DD;
+    color: #170f0b;
     opacity: 0.25;
     text-decoration: none;
 }
@@ -135,6 +136,7 @@ footer .somed i:hover {
     background-color: #2d1f18;
     color: #A1ADB5;
     font-size: 15pt;
+}
 
 footer .credit {
     bottom: 0;
