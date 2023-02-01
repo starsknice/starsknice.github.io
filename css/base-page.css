@@ -119,6 +119,8 @@ footer .somed {
 
 footer .somed i {
     background-color: #A1ADB5;
+    width: 25pt;
+    height: 25pt;
     color: #2d1f18;
     font-size: 15pt;
     border-radius: 100%;
@@ -133,9 +135,6 @@ footer .somed i:hover {
     background-color: #2d1f18;
     color: #A1ADB5;
     font-size: 15pt;
-    border-radius: 100%;
-}
-
 
 footer .credit {
     bottom: 0;
