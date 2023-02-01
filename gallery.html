@@ -24,25 +24,19 @@
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" sync></script> 
 
 <script>
-    var msnry = new Masonry('.row', {
-        itemSelector: 'col-md-4 col-sm-12',
+    var $grid = document.querySelector('.row');
+    var msnry = new Masonry($grid, {
+        itemSelector: 'col-md-4',
         percentPosition: true
     });
-    setTimeout(function () {
-        msnry.layout();
-    }, 100);
 
-    setTimeout(function () {
-        msnry.layout();
-    }, 300);
-
-    setTimeout(function () {
-        msnry.layout();
-    }, 1000);
-
-    setTimeout(function () {
-        msnry.layout();
-    }, 5000);
+    var $images = $grid.querySelectorAll('.art img');
+    $images.forEach(function (el) {
+        el.addEventListener('load', function () {
+            console.log("Image is loaded: " + el.getAttribute("src"));
+            msnry.layout();
+        });
+    });
 </script>
 
 </head>
@@ -51,7 +45,7 @@
 
 <nav>
     <div id="name">
-        <a href="../" style="color: #170f0b;">starsknice</a>
+        <a href="../" style="color: #A1ADB5;">starsknice</a>
     </div>
     <ul>
         <li class="current-page">gallery</li>

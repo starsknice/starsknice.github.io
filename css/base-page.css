@@ -1,8 +1,8 @@
 nav {
-    background-color: #6d5b52;
+    background-color: #231E1B;
     width: 100vw;
     padding: 10px 30px 10px 20px;
-    color: #170f0b;
+    color: #A1ADB5;
     position: fixed;
     border-bottom: 1px solid #2D2622;
     z-index: 999;
@@ -21,16 +21,16 @@ nav {
 
 #name a {
     font: 16pt "Homemade Apple", cursive;
-    color: #170f0b;
+    color: #A1ADB5;
 }
 
 nav a {
-    color: #170f0b;
+    color: #A1ADB5;
     border-bottom: none;
 }
 
 nav a:hover {
-    color: #170f0b;
+    color: #A1ADB5;
     opacity: 0.25;
     text-decoration: none;
 }
