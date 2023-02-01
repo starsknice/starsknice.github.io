@@ -23,6 +23,28 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" sync></script> 
 
+<script>
+    var msnry = new Masonry('.row', {
+        itemSelector: 'col-md-4 col-sm-12',
+        percentPosition: true
+    });
+    setTimeout(function () {
+        msnry.layout();
+    }, 100);
+
+    setTimeout(function () {
+        msnry.layout();
+    }, 300);
+
+    setTimeout(function () {
+        msnry.layout();
+    }, 1000);
+
+    setTimeout(function () {
+        msnry.layout();
+    }, 5000);
+</script>
+
 </head>
 
 <body class="d-flex flex-column min-vh-100">
