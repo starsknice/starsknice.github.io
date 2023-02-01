@@ -118,6 +118,10 @@ footer .somed {
     word-spacing: 10pt;
 }
 
+footer .somed a {
+    border-bottom: none;
+}
+
 footer .somed i {
     background-color: #A1ADB5;
     width: 25pt;

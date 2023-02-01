@@ -16,6 +16,8 @@ h1, h2, h3 {
 }
 
 a {
+    color: #A1ADB5;
+    border-bottom: 1px dashed #A1ADB5;
     text-decoration: none;
     
     -webkit-transition: all 0.2s ease-in-out;
@@ -25,5 +27,7 @@ a {
 }
 
 a:hover {
-
+    color: #A1ADB5;
+    border-bottom: none;
+    opacity: .25;
 }
