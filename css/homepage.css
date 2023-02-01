@@ -59,3 +59,32 @@
 #menu:hover > .m:hover {
     opacity: 1;
 }
+
+.mobile {
+    padding: 100px 10%;
+}
+
+.mobile h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.mobile li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.mobile img {
+    margin-bottom: 10px;
+}
+
+.mobile a:hover {
+    opacity: 0.25;
+}
