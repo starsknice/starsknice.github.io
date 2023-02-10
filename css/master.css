@@ -6,7 +6,7 @@ body {
     background-image: url('../img/lozenge.png');
     background-color: #231E1B;
     color: #F5E9DD;
-    font: 15.5pt "Goudy Bookletter 1911", Times;
+    font: 14pt "Goudy Bookletter 1911", Times;
     overflow-x: hidden;
 }
 
