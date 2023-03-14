@@ -1,3 +1,7 @@
+.item img {
+    width: 100%;
+}
+
 h5 {
     text-transform: uppercase;
     color: #A1ADB5;

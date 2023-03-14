@@ -4,7 +4,7 @@
 
 <head>
 
-<title>starsknice - gallery</title>
+<title>starsknice - about me</title>
 <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" type="text/css" href="css/master.css">
 <link rel="stylesheet" type="text/css" href="css/base-page.css">
-<link rel="stylesheet" type="text/css" href="css/gallery.css">
+<link rel="stylesheet" type="text/css" href="css/experience.css">
 <script type="text/javascript" src="js/script.js"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,23 +21,6 @@
 
 <script src="https://kit.fontawesome.com/fb25db8e8c.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" sync></script> 
-
-<script>
-    var $grid = document.querySelector('.row');
-    var msnry = new Masonry($grid, {
-        itemSelector: '.col',
-        percentPosition: true
-    });
-
-    var $images = $grid.querySelectorAll('.art img');
-    $images.forEach(function (el) {
-        el.addEventListener('load', function () {
-            console.log("Image is loaded: " + el.getAttribute("src"));
-            msnry.layout();
-        });
-    });
-</script>
 
 </head>
 
@@ -49,46 +32,50 @@
     </div>
     <ul>
         <li><a href="index.html">home</a></li>
-        <li class="current-page">gallery</li>
-        <li><a href="experience.html">experience</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li class="current-page">about</li>
         <li><a href="commissions.html">commissions</a></li>
     </ul>
 </nav>
 
 <div id="container" class="flex-fill">
 
-<h1>gallery</h1>
-<div class="gallery row g-2">
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/genishng.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/toiswarcomm1.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/luoxiaohei.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/dndallrie.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/gogjjooo.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/kamill3.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/worldwood.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/abtme.png" />
-    </div>
-    <div class="art col-md-4 col-sm-12">
-        <img src="img/getoooooo.png" />
+<div id="experience">
+    <img class="icon" src="img/unknown-1697.png" />
+    <h1>projects</h1>
+
+    <div class="row gy-3" style="margin-top: 25px;">
+        <div class="col-md-4 col-sm-12">
+            <img class="zine-icon" src="img/claudefanzine.jpg" />
+            <div class="zine-name">The Golden Scheme</div>
+            <div class="zine-about">
+                <p>August 2019 - August 2020</p>
+                <p>Also known as "The Golden Scheme: A Claude von Riegen Zine". This anthology contains 100+ pages of both writing and artwork celebrating the beloved Fire Emblem character. Our donations added up to $6,009 for Gamers Outreach and an additional $1,681 for the American Civil Liberties Union.</p>
+                <p><a href="https://twitter.com/claudefanzine">https://twitter.com/claudefanzine</a></p>
+            </div>
+        </div>
+    
+        <div class="col-md-4 col-sm-12">
+            <img class="zine-icon" src="img/thortours.jpg" />
+            <div class="zine-name">Thor Tours</div>
+            <div class="zine-about">
+                <p>May 2019 - October 2019</p>
+                <p>Following the journey of Marvel's Asgard friends, the Thor Tours artbook contains 50 pages of adventure illustrated by over 40 contributors. We raised $7,322 for UNICEF's Syria Crisis Mission. </p>
+                <p><a href="https://twitter.com/ThorToursZine">https://twitter.com/ThorToursZine</a></p>
+            </div>
+        </div>
+    
+        <div class="col-md-4 col-sm-12">
+            <img class="zine-icon" src="img/dimiclaude.jpg" />
+            <div class="zine-name">Eclipsis</div>
+            <div class="zine-about">
+                <p>January 2020 - July 2020</p>
+                <p>Full title "Eclipsis: A Dimiclaude Fanzine." This zine is dedicated to a Fire Emblem pairing between Claude von Riegen and Dimitri Alexandre Blaiddyd centering around celestial and starry themes. With this project, we donated $1,145 to the St. Vincent de Paul Society's COVID relief program in Australia.</p>
+                <p><a href="https://twitter.com/dimiclaudezine">https://twitter.com/dimiclaudezine</a></p>
+            </div>
+        </div>
     </div>
 </div>
-
-<!-- add masonry -->
 
 </div>
 
@@ -102,8 +89,8 @@
 
         <div class="col-md-2 offset-md-1">
             <ul>
-                <li class="current-page">gallery</li>
-                <li><a href="experience.html">experience</a></li>
+                <li><a href="gallery.html">gallery</a></li>
+                <li class="current-page">about</li>
                 <li><a href="commissions.html">commissions</a></li>
                 <li><a href="contact.html">contact</a></li>
             </ul>
